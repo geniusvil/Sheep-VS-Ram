@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+body {
+  text-align: center;
+  font-family: Arial;
+  font-size: 20px;
+  background-color: #dedada;
+  margin-top: 20px;
+}
+body #wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  text-align: center;
+  overflow: auto;
+  width: 700px;
+  border-radius: 20px;
+  background-color: #908c8c;
+  box-shadow: #4b4a4a 10px 10px 10px;
+}
+body #wrapper header {
+  text-align: center;
+}
+body #wrapper header h2 {
+  margin-top: 10px;
+  text-shadow: 5px 5px 7px #4b4a4a;
+}
+body #wrapper header div.numberTasks {
+  background-color: white;
+  box-shadow: #4b4a4a 7px 7px 10px;
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+body #wrapper header div.numberTasks ul li {
+  display: inline-block;
+}
+body #wrapper header div.numberTasks ul li img {
+  width: 25px;
+  height: 25px;
+}
+body #wrapper header div.numberTasks ul li a {
+  width: 150px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+body #wrapper header div.numberTasks ul li a:hover {
+  color: #494848;
+  text-shadow: 3px 3px 3px #808080;
+}
+body #wrapper header div.numberTasks ul li.open a {
+  font-weight: bold;
+  border-bottom: none;
+  background-color: white;
+  text-shadow: 5px 5px 3px #808080;
+  color: red;
+}
+body #wrapper header div.numberTasks ul li.open a:hover {
+  color: red;
+  text-shadow: 5px 5px 3px #808080;
+}
+body #wrapper div#condition {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
+body #wrapper div#condition p {
+  margin: 10px;
+  text-align: center;
+  color: #ccc;
+  text-shadow: 3px 3px 3px black;
+}
+body #wrapper div#condition input#userChoice {
+  margin: auto;
+  padding: 5px;
+  font-size: 20px;
+  width: 60px;
+  text-align: center;
+  box-shadow: #4b4a4a 7px 7px 10px;
+}
+body #wrapper div#condition a#submit {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  border: 1px solid #908c8c;
+  text-shadow: none;
+  padding: 5px 20px;
+  box-shadow: #4b4a4a 7px 7px 10px;
+}
+body #wrapper div#condition a#submit:hover {
+  color: red;
+  text-shadow: 3px 3px 3px black;
+  border: 1px solid #ccc;
+}
+body #wrapper div#result {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+body #wrapper div#result p.result {
+  height: 50px;
+  margin: 2px 180px;
+  vertical-align: middle;
+  text-align: justify;
+  border: 1px solid #ccc;
+  box-shadow: #4b4a4a 7px 7px 10px;
+}
+body #wrapper div#result p.result span.userNumber {
+  display: inline-block;
+  padding: 15px;
+}
+body #wrapper div#result p.result img {
+  float: right;
+}
+body #wrapper div#higher-score,
+body #wrapper div.result {
+  display: none;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: 1px solid #ccc;
+  box-shadow: #4b4a4a 7px 7px 10px;
+  text-align: center;
+}
+body #wrapper div#higher-score p,
+body #wrapper div.result p {
+  margin: 10px;
+  text-align: center;
+}
+body #wrapper div#higher-score input.ask-name,
+body #wrapper div.result input.ask-name {
+  margin: auto;
+  padding: 5px;
+  font-size: 20px;
+  width: 200px;
+  text-align: center;
+}
+body #wrapper div#higher-score a.add-name,
+body #wrapper div.result a.add-name {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}
+body #wrapper div#higher-score a.add-name:hover,
+body #wrapper div.result a.add-name:hover {
+  color: red;
+  text-shadow: 3px 3px 3px black;
+}
+h3.title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-shadow: 5px 5px 7px #4b4a4a;
+  text-align: center;
+}

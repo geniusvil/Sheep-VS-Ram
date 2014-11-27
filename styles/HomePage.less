@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+body {
+  text-align: center;
+  font-family: Arial;
+  font-size: 20px;
+  // font-weight: bold;
+  background-color: #dedada;
+  margin-top: 20px;
+
+  #wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	text-align: center;
+	overflow: auto;
+	width: 700px;
+	border-radius: 20px;
+	background-color: #908c8c;
+	box-shadow: #4b4a4a 10px 10px 10px;
+
+	header {
+	  text-align: center;
+
+	  //	  h1 {
+	  //		margin-top: 20px;
+	  //		margin-bottom: 20px;
+	  //		font-size: 30px;
+	  //		text-shadow: 7px 7px 7px #4b4a4a;
+	  //	  }
+	  h2 {
+
+		  margin-top: 10px;
+
+		  text-shadow: 5px 5px 7px #4b4a4a;
+
+	  }
+
+	  div.numberTasks {
+		background-color: white;
+		box-shadow: #4b4a4a 7px 7px;
+		width: 650px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		padding: 10px;
+		ul {
+
+		  li {
+			position: relative;
+			display: inline-block;
+			width: 150px;
+			img {
+			  width: 25px;
+			  height: 25px;
+			}
+			&.open {
+
+			  a {
+				font-weight: bold;
+				border-bottom: none;
+				background-color: white;
+				text-shadow: 5px 5px 3px #808080;
+				color: red;
+
+			  }
+			}
+
+			a {
+			  vertical-align: middle;
+			  text-decoration: none;
+			  color: black;
+
+			  &:hover {
+				color: red;
+				text-shadow: 5px 5px 3px #808080;
+			  }
+			}
+		  }
+		}
+	  }
+	}
+
+	#left {
+	  position: relative;
+	  width: 65%;
+	  height: 400px;
+	  margin: 15px;
+	  margin-bottom: 0;
+	  margin-right: 0;
+	  padding: 20px;
+	 // padding-top: 120px;
+	  text-align: center;
+	  background-color: white;
+	  box-shadow: #4b4a4a 10px 10px 10px;
+	  div.condition {
+		h2 {
+		  padding-top: 73px;
+		  padding-bottom: 15px;
+		  text-shadow: 5px 5px 3px #808080;
+		  text-decoration-line: underline;
+		}
+	  }
+	  p {
+		text-align: justify;
+	  }
+	  a {
+		position: absolute;
+		bottom: 20px;
+		right: 20px;
+
+		vertical-align: middle;
+		text-decoration: none;
+		color: black;
+
+		&:hover {
+		  color: red;
+		  text-shadow: 5px 5px 3px #808080;
+		}
+
+	  }
+
+	}
+	#right {
+
+	  width: 25%;
+	  text-align: center;
+
+	  div {
+		text-align: center;
+		background-color: white;
+		box-shadow: #4b4a4a 10px 10px 10px;
+		&.task {
+		  h2{
+			//font-size: 40px;
+
+		  }
+		  margin-bottom: 15px;
+		  &:first-of-type {
+			margin-top: 15px;
+		  }
+
+		  &:hover {
+			color: red;
+			text-shadow: 5px 5px 3px #808080;
+		  }
+
+		  &:last-of-type {
+			margin-bottom: 0;
+		  }
+
+		  margin-right: 15px;
+		  padding: 172px 10px;
+		}
+	  }
+	  div.current {
+		color: red;
+		text-shadow: 5px 5px 3px #808080;
+	  }
+	}
+  }
+}
